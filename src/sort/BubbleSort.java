@@ -6,10 +6,10 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {3, 44, 38, 5, 47, 36, 26, 2, 46, 4, 19, 50, 48};
         System.out.println("arr = " + Arrays.toString(arr));
-        sort(arr);
+        bubbleSort(arr);
     }
 
-    public static void sort(int[] arr) {
+    public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {//外层循环控制排序趟数
             boolean swapped = false;
             for (int j = 0; j < arr.length - 1 - i; j++) {//内层循环控制每一趟排序多少次

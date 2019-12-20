@@ -6,10 +6,10 @@ public class InsertSort {
     public static void main(String[] args) {
         int[] arr = {3, 44, 38, 5, 47, 36, 26, 2, 36, 4, 19, 50, 48};
         System.out.println("arr = " + Arrays.toString(arr));
-        sort(arr);
+        insertSort(arr);
     }
 
-    public static void sort(int[] arr) {
+    public static void insertSort(int[] arr) {
         int i, j, v;
         for (i = 0; i < arr.length; i++) {
             v = arr[i];
